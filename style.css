@@ -1,0 +1,18 @@
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+.slide {
+  display: none;
+}
+.fade {
+  animation: .fade {
+  animation: fadeEffect 5s infinite;
+}
+;
+}
+@keyframes fadeEffect {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
